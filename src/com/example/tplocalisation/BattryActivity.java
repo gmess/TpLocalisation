@@ -20,7 +20,7 @@ public class BattryActivity extends Activity {
 public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.battry);
-     
+    Log.v("toto", "titi"); 
     textBatteryLevel = (TextView)findViewById(R.id.b_text);
      
     registerBatteryLevelReceiver();
