@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".WebServiceActivity" >
+ 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Convetion du Celsius au Farenheit"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    
+     <ImageView
+        android:id="@+id/android_picture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_p"
+        android:src="@drawable/deg" />
+      
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Entrer le degré :"
+
+        android:textSize="25dp" />
+ 
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:numeric="integer"
+        
+        android:singleLine="true"
+         />
+ 
+    <Button
+         android:layout_marginTop="@dimen/small_p"
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Convertir en Farenheit"
+        android:textStyle="bold" />
+ 
+    <TextView
+         android:layout_marginTop="@dimen/small_p"
+        android:id="@+id/tv_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textSize="26dp"/>
+ 
+</LinearLayout>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+      tools:context=".ScanActivity" >
+      
+     
+ <ImageView
+        android:id="@+id/android_picture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_p"
+        android:src="@drawable/interne" />
+
+       
+    <TextView
+        android:id="@+id/sallet"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="@dimen/normal_p"
+        android:text="@string/sallet"
+        android:textSize="@dimen/normal_text_size"
+        android:textColor="@color/black_color" />
+    
+       <EditText
+         android:id="@+id/salleN"
+        android:layout_width="@dimen/large_p"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center" />
+          
+     <ImageView
+       
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_p"
+        android:src="@drawable/barre"
+        android:layout_gravity="center"
+         />
+    
+    
+    <Button android:id="@+id/scan_button"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/small_p"
+        android:text="@string/scan" />
+
+    
+	    <TextView
+	        android:layout_marginTop="@dimen/normal_p"
+	    android:id="@+id/scan_content"
+	     android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+	    android:textIsSelectable="true"
+	      android:textStyle="bold"
+         android:textSize="@dimen/normal_text_size"
+	     />
+	    
+	   <TextView
+	       android:layout_marginTop="@dimen/normal_p"
+	    android:id="@+id/scan_direction"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textIsSelectable="true"
+	    android:layout_gravity="center"
+	      android:textStyle="bold"
+         android:textSize="@dimen/normal_text_size"
+         android:textColor="@color/green_color"
+	     />
+    
+</LinearLayout>

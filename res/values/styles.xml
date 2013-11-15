@@ -1,0 +1,58 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+     <style name="localisation">
+      <item name="android:background">@drawable/localisation</item>
+     </style>
+     
+ <style name="interne">
+      <item name="android:background">@drawable/interne</item>
+ </style>
+  <style name="aut">
+      <item name="android:background">@drawable/aut2</item>
+ </style>
+   <style name="aut2">
+      <item name="android:background">@drawable/aut</item>
+ </style>
+   <style name="empl">
+      <item name="android:background">@drawable/empl</item>
+ </style>
+    <style name="ok">
+      <item name="android:background">@drawable/ok</item>
+ </style>
+ 
+  <!-- web service --> 
+  	 <style name="webservice">
+     	 <item name="android:background">@drawable/degg</item>
+	 </style>
+	 
+ <!-- rencontree --> 
+  	 <style name="rencontre">
+     	 <item name="android:background">@drawable/renc</item>
+	 </style>
+	 
+  	<!-- premiere  -->
+  		 <style name="premiere_aide">
+     	 <item name="android:background">@drawable/help</item>
+	 </style>
+	 
+  		 	 <style name="batterie">
+     	 <item name="android:background">@drawable/batt</item>
+	 </style>
+</resources>

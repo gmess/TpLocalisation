@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TpLocalisation</string>
+    <string name="act_name">Votre Situation Géoraphique</string>
+    <string name="act_data">Authentification</string>
+    <string name="act_trait">Espace Personnel</string>
+    <string name="act_scan">Localisation Interne</string>
+    <string name="act_web_service">web service</string>
+    <string name="act_rencontre">Rencontre</string>
+    <string name="act_login">Connexion Etudiant UVHC</string>
+    <string name="act_acceuil">Accès Etudiants UVHC</string>
+     <string name="act_batt">Gestion Alimentation</string>
+        <string name="mapKey">AIzaSyBHz07qx2j9uC4BZl1z6bf-53Ccgh0xs2o</string>
+<!-- activity main -->  
+    <string name="action_settings">Settings</string>
+    <string name="localisation">localisation</string>
+    <string name="local">Interne</string>
+    <string name="aut2">Login</string>
+    <string name="destination">Destination :</string>
+    
+ <!-- data base.xml -->
+     <string name="aut">Authentification</string>
+     <string name="titre">Votre espace personnel</string>
+     <string name="psw">Mot De Passe :</string>
+
+ <!-- traitement.xm -->
+   
+  	<string name="user">Nom Utilisateur : </string>
+ 	<string name ="nom">Nom :</string>
+    <string name ="prenom">Prénom :</string> 
+    <string name ="formation">Formation :</string>
+     <string name ="emploi">Votre Emploi de Temps :</string>
+     
+  <!-- scan.xml --> 
+    <string name ="scan">Scanner le code barre qui se trouve sur une porte du batiment</string>
+     <string name ="sallet">Salle? </string>
+     
+    <!-- webservice.xml -->
+    <string name ="webservice">Web Service</string>
+    
+      <!-- webservice.xml -->
+    <string name ="rencontre">Point de rencontre</string>
+    <!-- premiere activity -->
+     <string name ="prem_aide">Aide</string>
+     
+      <string name="empl">Emploi Temps</string>
+</resources>

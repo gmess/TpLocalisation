@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AcceuilActivity" >
+    
+    
+   <!-- bouton localisation -->
+    <Button
+    android:id="@+id/localisation"
+    style="@style/localisation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/normal_t"
+    android:layout_marginLeft="@dimen/normal_p3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/localisation"
+        android:text="@string/localisation"
+        android:layout_marginLeft="@dimen/normal_p3" 
+        android:textSize="@dimen/normal_text_size"/>
+    
+    <!-- bouton localisation interne -->
+    
+
+  <Button
+    android:id="@+id/interne"
+    style="@style/interne"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/normal_t"
+    android:layout_marginLeft="@dimen/normal_p2"
+    android:layout_toRightOf="@id/localisation"/>
+     
+     <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/local"
+     android:layout_below="@id/interne"
+     android:layout_marginLeft="360dp" 
+     android:textSize="@dimen/normal_text_size" />
+     
+      <!-- bouton localisation interne -->
+    
+  <!-- authentification -->
+  <Button
+    android:id="@+id/empl"
+    style="@style/empl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/normal_t"
+    android:layout_marginLeft="@dimen/normal_p2"
+    android:layout_toRightOf="@id/interne"/>
+     
+     <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/empl"
+     android:layout_below="@id/empl"
+     android:layout_marginLeft="460dp" 
+     android:textSize="@dimen/normal_text_size" />
+     
+  <!-- web service -->  
+  <Button
+    android:id="@+id/webservice"
+    style="@style/webservice"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/normal_t"
+    android:layout_marginLeft="@dimen/normal_p2"
+    android:layout_toRightOf="@id/empl"/>
+     
+    <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/webservice"
+     android:layout_below="@id/webservice"
+     android:layout_marginLeft="600dp" 
+     android:textSize="@dimen/normal_text_size" />
+    
+   <!-- rencontre -->  
+  <Button
+    android:id="@+id/rencontre"
+    style="@style/rencontre"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/normal_t"
+    android:layout_marginLeft="@dimen/normal_p2"
+    android:layout_toRightOf="@id/webservice"/>
+     
+    <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/rencontre"
+     android:layout_below="@id/rencontre"
+     android:layout_marginLeft="740dp" 
+     android:textSize="@dimen/normal_text_size" />
+    
+       <!-- rencontre -->  
+  <Button
+    android:id="@+id/batterie"
+    style="@style/batterie"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/normal_t"
+    android:layout_marginLeft="@dimen/normal_p2"
+    android:layout_toRightOf="@id/rencontre"/>
+     
+    <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/rencontre"
+     android:layout_below="@id/batterie"
+     android:layout_marginLeft="800dp" 
+     android:textSize="@dimen/normal_text_size" />
+     
+</RelativeLayout>
